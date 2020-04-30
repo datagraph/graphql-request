@@ -1,3 +1,7 @@
+interface ErrorConstructor {
+  captureStackTrace(thisArg: any, func: any): void
+}
+
 export type Variables = { [key: string]: any }
 
 export interface Headers {
